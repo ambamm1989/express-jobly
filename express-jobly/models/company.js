@@ -86,8 +86,8 @@ class Company {
     }
 
     query += ' ORDER BY name';
-    const companiesRes = await db.query(query, queryValues);
-    return companiesRes.rows;
+    const companyRes = await db.query(query, queryValues);
+    return companyRes.rows;
   }
       
 
