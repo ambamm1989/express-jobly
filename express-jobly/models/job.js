@@ -86,7 +86,7 @@ class Job {
                     delete job.companyHandle;
                     job.company = companiesRes.rows[0];
 
-                    return jobs;
+                    return job;
                 
                 }
 
@@ -123,7 +123,7 @@ class Job {
         }
     }
         
-        module.exports = Jobs;
+        module.exports = Job;
 
 
 
